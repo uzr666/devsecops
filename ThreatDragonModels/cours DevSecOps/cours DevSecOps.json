@@ -19,11 +19,11 @@
         "cells": [
           {
             "position": {
-              "x": 150,
+              "x": 192.5,
               "y": 180
             },
             "size": {
-              "width": 112.5,
+              "width": 70,
               "height": 60
             },
             "attrs": {
@@ -140,7 +140,7 @@
               "y": 175
             },
             "size": {
-              "width": 100,
+              "width": 70,
               "height": 70
             },
             "attrs": {
@@ -256,7 +256,7 @@
           },
           {
             "position": {
-              "x": 542,
+              "x": 572,
               "y": 175
             },
             "size": {
@@ -380,7 +380,7 @@
               "y": 180
             },
             "size": {
-              "width": 120,
+              "width": 70,
               "height": 60
             },
             "attrs": {
@@ -518,7 +518,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "/GET",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -532,7 +532,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Data Flow"
+              "/GET"
             ],
             "id": "d834e433-d311-447d-a71f-3e7ac60d4c5f",
             "source": {
@@ -565,7 +565,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Sanitarisation",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -579,7 +579,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Data Flow"
+              "Sanitarisation"
             ],
             "id": "9b941d5b-c817-46e6-9b2e-da39caa34ac6",
             "source": {
@@ -612,7 +612,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Storage",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -626,7 +626,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Data Flow"
+              "Storage"
             ],
             "id": "a050d5e3-9368-40f2-b4ca-e85c07c7e735",
             "source": {
